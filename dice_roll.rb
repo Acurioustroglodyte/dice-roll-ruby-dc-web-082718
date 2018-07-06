@@ -4,4 +4,15 @@
 
 def roll
   # code goes here
+  random_num = rand(6) + 1
+  return random_num
 end
+
+def array_roll
+  array_range = Array (1..6)
+  random_num = rand(6)
+  return array_range[random_num]
+end
+
+roll
+array_roll
